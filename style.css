@@ -28,6 +28,7 @@ p {
 .btn-blue {
   text-decoration: none;
   font-family: 'Jost', sans-serif;
+  font-size: 14px;
   color: white;
   background-color: #989cda;
   padding: 7px;
