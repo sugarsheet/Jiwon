@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+h1 {
+  color: rgb(93, 175, 219);
+  font-weight: bold;
+}
+
+img {
+  height: 150px;
+  border-radius: 50%;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h1, h2, h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 25px;
+  color: #D8C9DA;
+}
+
+p {
+  font-family: 'Jost', sans-serif;
+  margin-top: 6px;
+}
+
+.btn-blue {
+  text-decoration: none;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  background-color: #989cda;
+  padding: 7px;
+  border-radius: 6px;
+}
+
+.btn-blue:hover {
+  color: #1524EF;
+}
+
+i {
+  font-size: 40px;
+  color: rgb(141, 29, 141)
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 5%);
+  border-radius: 15px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.container {
+  width: 440px;
+  margin: 0 auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
